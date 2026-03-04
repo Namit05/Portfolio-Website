@@ -625,6 +625,14 @@ h1{
 
 @media screen and (max-width: 950px){
 
+    nav{
+        flex-direction: column;
+        align-items: center;
+        gap:12px;
+    }
+
+    .hero,
+    .hero2,
     .hero3{
         flex-direction: column;
         height: auto;
@@ -632,114 +640,154 @@ h1{
         text-align: center;
     }
 
+    .heroleft,
+    .heroleft2,
     .heroleft3{
         align-items: center;
     }
 
+    .heroright img,
+    .heroright2 img,
     .heroright3 img{
-        height: 30vh;
-        border-radius: 40px;
+        width:60vw;
+        height:auto;
+        border-radius:40px;
+    }
+
+    .about{
+        flex-direction: column;
+        text-align:center;
+        padding:30px 20px;
+    }
+
+    .about-image img{
+        width:70vw;
+        padding:20px;
+    }
+
+    .project{
+        flex-direction: column;
+    }
+
+    .project-image img{
+        width:70vw;
     }
 
     .gmail-form{
-        max-width: 100%;
+        max-width:100%;
     }
 
 }
 
 @media screen and (max-width: 600px){
 
+    .heroleft .one,
+    .heroleft2 .one2,
     .heroleft3 .one3{
-        font-size: 32px;
+        font-size:34px;
+        text-align:center;
     }
 
+    .heroleft .two,
+    .heroleft2 .two2,
     .heroleft3 .two3{
-        font-size: 20px;
+        font-size:22px;
+        text-align:center;
     }
 
     .gmail-form input,
     .gmail-form textarea{
-        font-size: 13px;
+        font-size:13px;
     }
 
     .site{
         flex-direction: column;
         align-items: center;
-        gap: 15px;
+        gap:15px;
     }
 
     .site img{
-        width: 60px;
-        height: 60px;
+        width:60px;
+        height:60px;
+    }
+
+    .cert-grid{
+        grid-template-columns:1fr;
+        gap:40px;
+        width:90%;
     }
 
 }
 
 @media screen and (max-width: 420px){
 
-nav{
-    text-align:center;
-}
+    nav{
+        text-align:center;
+    }
 
-nav ul{
-    flex-direction:column;
-    gap:6px;
-}
+    nav ul{
+        flex-direction:column;
+        gap:6px;
+    }
 
-.hero,
-.hero2,
-.hero3{
-    height:auto;
-    padding:30px 10px;
-}
+    .hero,
+    .hero2,
+    .hero3{
+        height:auto;
+        padding:30px 10px;
+    }
 
-.heroleft .one,
-.heroleft2 .one2,
-.heroleft3 .one3{
-    font-size:28px;
-}
+    .heroleft .one,
+    .heroleft2 .one2,
+    .heroleft3 .one3{
+        font-size:28px;
+    }
 
-.heroleft .two,
-.heroleft2 .two2,
-.heroleft3 .two3{
-    font-size:18px;
-}
+    .heroleft .two,
+    .heroleft2 .two2,
+    .heroleft3 .two3{
+        font-size:18px;
+    }
 
-.heroright img,
-.heroright2 img,
-.heroright3 img{
-    width:85vw;
-    height:auto;
-}
+    .heroright img,
+    .heroright2 img,
+    .heroright3 img{
+        width:85vw;
+        height:auto;
+    }
 
-.project-info p{
-    font-size:16px;
-}
+    .project-info p{
+        font-size:16px;
+    }
 
-.about-info2 .text{
-    font-size:28px;
-}
+    .about-info2{
+        padding:15px;
+    }
 
-.about-image img{
-    width:85vw;
-}
+    .about-info2 .text{
+        font-size:28px;
+    }
 
-.cert-grid{
-    grid-template-columns:1fr;
-    gap:30px;
-}
+    .about-image img{
+        width:85vw;
+    }
 
-.cert-card img{
-    height:150px;
-}
+    .cert-grid{
+        grid-template-columns:1fr;
+        gap:30px;
+    }
 
-.site img{
-    width:50px;
-    height:50px;
-}
+    .cert-card img{
+        height:150px;
+    }
 
-.gmail-form{
-    width:90vw;
-}
+    .site img{
+        width:50px;
+        height:50px;
+    }
+
+    .gmail-form{
+        width:90vw;
+    }
 
 }
