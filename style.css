@@ -716,6 +716,16 @@ h1{
         gap:40px;
         width:90%;
     }
+    .heroleft4 .one{
+    font-size:38px;
+    line-height:1.2;
+    padding:0 10px;
+    }
+    .heroleft4 .one4{
+    font-size:36px;
+    line-height:1.2;
+    padding:0 15px;
+    }
 
 }
 
@@ -788,6 +798,10 @@ h1{
 
     .gmail-form{
         width:90vw;
+    }
+
+    .heroleft4 .one4{
+    font-size:26px;
     }
 
 }
