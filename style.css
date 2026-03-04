@@ -674,3 +674,72 @@ h1{
     }
 
 }
+
+@media screen and (max-width: 420px){
+
+nav{
+    text-align:center;
+}
+
+nav ul{
+    flex-direction:column;
+    gap:6px;
+}
+
+.hero,
+.hero2,
+.hero3{
+    height:auto;
+    padding:30px 10px;
+}
+
+.heroleft .one,
+.heroleft2 .one2,
+.heroleft3 .one3{
+    font-size:28px;
+}
+
+.heroleft .two,
+.heroleft2 .two2,
+.heroleft3 .two3{
+    font-size:18px;
+}
+
+.heroright img,
+.heroright2 img,
+.heroright3 img{
+    width:85vw;
+    height:auto;
+}
+
+.project-info p{
+    font-size:16px;
+}
+
+.about-info2 .text{
+    font-size:28px;
+}
+
+.about-image img{
+    width:85vw;
+}
+
+.cert-grid{
+    grid-template-columns:1fr;
+    gap:30px;
+}
+
+.cert-card img{
+    height:150px;
+}
+
+.site img{
+    width:50px;
+    height:50px;
+}
+
+.gmail-form{
+    width:90vw;
+}
+
+}
